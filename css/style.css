@@ -1,0 +1,198 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+ .row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 768px){
+
+body{
+    background-color: #003771;
+}
+
+#logo {
+    float: left;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10vw;
+}
+#logo img {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+}
+#title h2 {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1.5vw;
+    text-align: center;
+    font-size: 7.5vw;
+    color: white;
+}
+
+#name{
+    position: relative;
+    top: 15vw;
+    left: 8.4vw;
+    border-radius: 20px;
+    height: 7vh;
+    width: 80vw;
+}
+
+#salario{
+    position: relative;
+    top: 19vw;
+    left: 8.4vw;
+    border-radius: 20px;
+    height: 7vh;
+    width: 80vw;
+}
+
+#button{
+    margin-left: 63%;
+    background-color:rgb(5, 22, 54);
+    color: white;
+    width: 25vw;
+    height: 30px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px; 
+    border: none;
+    margin-top: 21.5%;
+}
+
+#tabela{
+    font-family:Arial;
+    background-color: white;
+    
+
+}
+
+#tabela th{
+    text-align: center;
+    width: 6vw;
+    font-size: 11px;
+    
+}
+
+table{
+    margin-top: 15px;
+    margin-left: 14%;
+    margin-bottom: 30px;
+}
+
+#limpar{
+    margin-left: 64%;
+    background-color:#051636;
+    color: #ffffff;
+    width: 25vw;
+    height: 30px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px; 
+    border: none;
+    margin-bottom: 50px;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 769px){
+
+    body{
+        background-color: #003771;
+    }
+    
+    #logo {
+        float: left;
+        width: 65%;
+        margin-left: 17.5%;
+        margin-top: 2vw;
+    }
+    #logo img {
+        float: left;
+        width: 39%;
+        margin-left: 30%;
+    }
+    #title h2 {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1.5vw;
+        text-align: center;
+        font-size: 2.5vw;
+        color: white;
+    }
+    
+    #name{
+        position: relative;
+        top: 6vw;
+        left: 24vw;
+        border-radius: 20px;
+        height: 7vh;
+        width: 50vw;
+    }
+    
+    #salario{
+        position: relative;
+        top: 8vw;
+        left: 24vw;
+        border-radius: 20px;
+        height: 7vh;
+        width: 50vw;
+    }
+    
+    #button{
+        margin-left: 65%;
+        background-color:#051636;
+        color: #ffffff;
+        width: 9.5vw;
+        height: 35px;
+        -webkit-border-radius: 50px 50px 50px 50px;
+        border-radius: 50px 50px 50px 50px; 
+        border: none;
+        margin-top: 10%;
+        margin-bottom: 50px;
+    }
+
+
+    #tabela{
+        font-family:Arial;
+        background-color: white;
+        color: black;
+    }
+
+    #tabela th{
+        text-align: center;
+        width: 7vw;
+        font-size: 13.5px;
+        
+    }
+
+    table{
+        margin-left: 24%;
+        margin-bottom: 10px;
+    }
+
+    #limpar{
+        margin-left: 65%;
+        background-color:#051636;
+        color: #ffffff;
+        width: 9.5vw;
+        height: 35px;
+        -webkit-border-radius: 50px 50px 50px 50px;
+        border-radius: 50px 50px 50px 50px; 
+        border: none;
+        margin-bottom: 50px;
+    }
+    
+    }
+    
